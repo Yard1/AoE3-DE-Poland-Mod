@@ -1,0 +1,398 @@
+<material>
+  <submaterial name="matb">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_masks">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_masks">
+      </texture>
+    </parameters>
+    <parameters variant="2">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_masks">
+      </texture>
+    </parameters>
+    <parameters variant="3">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_masks">
+      </texture>
+    </parameters>
+    <parameters variant="4">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_masks">
+      </texture>
+    </parameters>
+    <parameters variant="5">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_masks">
+      </texture>
+    </parameters>
+    <parameters variant="6">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_masks">
+      </texture>
+    </parameters>
+    <parameters variant="7">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_masks">
+      </texture>
+    </parameters>
+    <parameters variant="8">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_masks">
+      </texture>
+    </parameters>
+    <parameters variant="9">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_masks">
+      </texture>
+    </parameters>
+    <parameters variant="10">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_masks">
+      </texture>
+    </parameters>
+    <parameters variant="11">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_masks">
+      </texture>
+    </parameters>
+    <parameters variant="12">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_masks">
+      </texture>
+    </parameters>
+    <parameters variant="13">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_masks">
+      </texture>
+    </parameters>
+    <parameters variant="14">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_masks">
+      </texture>
+    </parameters>
+    <parameters variant="15">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="matc">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_01_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="2">
+      <texture name="BaseColor" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_02_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="3">
+      <texture name="BaseColor" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_colombia_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="4">
+      <texture name="BaseColor" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_04_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="5">
+      <texture name="BaseColor" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_05_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="6">
+      <texture name="BaseColor" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_06_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="7">
+      <texture name="BaseColor" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_mexico_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="8">
+      <texture name="BaseColor" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_barbary_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="9">
+      <texture name="BaseColor" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_canada_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="10">
+      <texture name="BaseColor" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_egypt_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="11">
+      <texture name="BaseColor" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_finland_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="12">
+      <texture name="BaseColor" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_hungary_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="13">
+      <texture name="BaseColor" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_indonesia_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="14">
+      <texture name="BaseColor" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_romania_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="15">
+      <texture name="BaseColor" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_south_africa2_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+  <submaterial name="mata">
+    <materialdef name="default">
+    </materialdef>
+    <parameters>
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="1">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="2">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="3">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="4">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="5">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="6">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="7">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="8">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="9">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="10">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="11">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="12">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="13">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="14">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="15">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_masks">
+      </texture>
+    </parameters>
+  </submaterial>
+</material>
