@@ -909,4 +909,12 @@
         <component>ModelComp</component>
         <attach a="sword" frombone="MASTER" tobone="bip01 Prop2" syncanims="0"></attach>
     </anim>
+    <anim>
+        Pickup
+        <assetreference type="GrannyAnim">
+            <file>animation_library\explorer\pickup_explorer_A</file>
+            <tag type="SpecificSoundSet" checkvisible="1" set="GatherFruit">0.35</tag>
+        </assetreference>
+        <component>ModelComp</component>
+    </anim>
 </animfile>

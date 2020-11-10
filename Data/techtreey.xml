@@ -20679,6 +20679,12 @@
       <effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
         <target type="ProtoUnit">Oprichnik</target>
       </effect>
+      <effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Uhlan</target>
+      </effect>
+      <effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Uhlan</target>
+      </effect>
       <effect type="TextOutput">41940</effect>
     </effects>
   </tech>
@@ -75716,6 +75722,30 @@
       <effect type="TechStatus" status="obtainable">Bayonet</effect>
     </effects>
   </tech>
+  <tech name="PolishUhlans" type="Normal">
+    <dbid>90</dbid>
+    <researchpoints>0.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="TechStatus" status="active">VeteranUhlans</effect>
+      <effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Uhlan</target>
+      </effect>
+      <effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
+        <target type="ProtoUnit">Uhlan</target>
+      </effect>
+      <effect type="SetName" proto="Uhlan" culture="none" newname="29279">
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Uhlan" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
   <tech name="DERevolutionPoland" type="Normal">
     <dbid>6436</dbid>
     <displaynameid>91839</displaynameid>
@@ -75733,13 +75763,6 @@
       <techstatus status="Active">Industrialize</techstatus>
     </prereqs>
     <effects>
-      <effect type="TechStatus" status="active">FrontierOutpost</effect>
-      <effect type="TechStatus" status="active">FrontierBlockhouse</effect>
-      <effect type="TechStatus" status="obtainable">FortifiedBlockhouse</effect>
-      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="ypBlockhouseWagon" relativity="Absolute">
-        <target type="Player">
-        </target>
-      </effect>
       <effect type="Data" amount="1.00" subtype="CopyTacticAnims" fromtactic="SwordCharge" totactic="Melee" relativity="Assign">
         <target type="ProtoUnit">Skirmisher</target>
       </effect>
@@ -75779,6 +75802,9 @@
       <effect type="Data" amount="99.00" subtype="BuildLimit" relativity="Assign">
         <target type="ProtoUnit">Skirmisher</target>
       </effect>
+      <effect type="Data" action="Discover" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
       <effect type="Data" action="Build" amount="1.00" subtype="ActionEnable" relativity="Absolute">
         <target type="ProtoUnit">Skirmisher</target>
       </effect>
@@ -75803,32 +75829,50 @@
       <effect type="Data" action="ChopAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
         <target type="ProtoUnit">Skirmisher</target>
       </effect>
-      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="TradingPost" relativity="Absolute">
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="Blockhouse" relativity="Absolute">
         <target type="ProtoUnit">Skirmisher</target>
       </effect>
-      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="Stable" relativity="Absolute">
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="Outpost" relativity="Absolute">
         <target type="ProtoUnit">Skirmisher</target>
-      </effect>
-      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="ArtilleryDepot" relativity="Absolute">
-        <target type="ProtoUnit">Skirmisher</target>
-      </effect>
-      <effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
-        <target type="ProtoUnit">Outpost</target>
       </effect>
       <effect type="TechStatus" status="active">VeteranSkirmishersShadow</effect>
       <effect type="TechStatus" status="obtainable">GuardSkirmishers</effect>
+
+      <effect type="TechStatus" status="active">PolishUhlans</effect>
+      <effect type="TechStatus" status="unobtainable">GuardUhlans</effect>
+
+      <effect type="TechStatus" status="unobtainable">GuardCossacks</effect>
+      <effect type="TechStatus" status="unobtainable">VeteranCossacks</effect>
+
+      <effect type="TransformUnit" toprotoid="Uhlan" fromprotoid="Cossack"/>
+
       <effect type="SetName" proto="Skirmisher" culture="none" newname="80890" newrollover="80889">
       </effect>
-      <effect type="Data" amount="0.00" subtype="CopyUnitPortraitAndIcon" unittype="Skirmisher" relativity="Absolute">
-        <target type="ProtoUnit">deIconREVKarelianJaeger</target>
-      </effect>
       <effect type="InitiateRevolution" proto="Skirmisher">
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Uhlan</target>
+      </effect>
+      <effect type="CommandAdd" page="0" column="0" proto="Uhlan">
+        <target type="ProtoUnit">Stable</target>
+      </effect>
+      <effect type="CommandAdd" page="0" column="0" proto="Uhlan">
+        <target type="ProtoUnit">FortFrontier</target>
       </effect>
       <effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">Settler</target>
       </effect>
       <effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">FishingBoat</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Cossack</target>
+      </effect>
+      <effect type="CommandRemove" proto="Cossack">
+        <target type="ProtoUnit">Stable</target>
+      </effect>
+      <effect type="CommandRemove" proto="Cossack">
+        <target type="ProtoUnit">FortFrontier</target>
       </effect>
       <effect type="TechStatus" status="active">XPRevolution</effect>
       <effect type="CommandRemove" proto="Settler">

@@ -13,6 +13,8 @@
           </soundset>
         </choice>
         <choice name="Russians">
+          <soundset name="RussianStreletSelect">
+          </soundset>
         </choice>
         <choice name="Ottomans">
         </choice>
@@ -131,12 +133,8 @@
           </targetlogic>
         </choice>
         <choice name="Russians">
-          <targetlogic>
-            <choice name="default">
-            </choice>
-            <choice name="enemy">
-            </choice>
-          </targetlogic>
+          <soundset name="RussianStreletAcknowledge">
+          </soundset>
         </choice>
         <choice name="Ottomans">
           <targetlogic>

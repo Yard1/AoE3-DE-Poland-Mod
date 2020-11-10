@@ -23,18 +23,9 @@
                 </assetreference>
             </derevolutionfinland>
             <derevolutionpoland>
-                <logic type="Variation">
-                    <data>
-                        <assetreference type="GrannyModel">
-                            <file>units\revolution\grenzer\grenzer_hat</file>
-                        </assetreference>
-                    </data>
-                    <data>
-                        <assetreference type="GrannyModel">
-                            <file>units\revolution\dorobant\dorobant_hat</file>
-                        </assetreference>
-                    </data>
-                </logic>
+                <assetreference type="GrannyModel">
+                    <file>units\revolution\dorobant\dorobant_hat</file>
+                </assetreference>
             </derevolutionpoland>
         </logic>
     </component>
