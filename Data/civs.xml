@@ -6876,4 +6876,18 @@
     <visible>0</visible>
     <visibleineditor>0</visibleineditor>
   </civ>
+  <civ>
+    <name>DERevPoland</name>
+    <main>0</main>
+    <displaynameid>91837</displaynameid>
+    <displayrevolutionflag>0</displayrevolutionflag>
+    <revolutionhomecityname>91838</revolutionhomecityname>
+    <homecityflagtexture>objects\flags\polish</homecityflagtexture>
+    <postgameflagtexture>ui\ingame\ingame_ui_postgame_flag_hungarian</postgameflagtexture>
+    <postgameflagiconwpf>resources/images/icons/flags/postgame_flag_polish.png</postgameflagiconwpf>
+    <homecityflagiconwpf>resources/images/icons/flags/Flag_Polish.png</homecityflagiconwpf>
+    <homecityflagbuttonwpf>resources\images\icons\flags\flag_hc_polish.png</homecityflagbuttonwpf>
+    <visible>0</visible>
+    <visibleineditor>0</visibleineditor>
+  </civ>
 </civs>

@@ -130,6 +130,14 @@
       <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_masks">
       </texture>
     </parameters>
+    <parameters variant="16">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_matb_masks">
+      </texture>
+    </parameters>
   </submaterial>
   <submaterial name="matc">
     <materialdef name="default">
@@ -262,6 +270,14 @@
       <texture name="Masks" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_masks">
       </texture>
     </parameters>
+    <parameters variant="16">
+      <texture name="BaseColor" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_poland_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\st_louis\bunting\prop_spact3_market_bunting\textures\bunting_all_mata_masks">
+      </texture>
+    </parameters>
   </submaterial>
   <submaterial name="mata">
     <materialdef name="default">
@@ -387,6 +403,14 @@
       </texture>
     </parameters>
     <parameters variant="15">
+      <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_basecolor">
+      </texture>
+      <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_normals">
+      </texture>
+      <texture name="Masks" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_masks">
+      </texture>
+    </parameters>
+    <parameters variant="16">
       <texture name="BaseColor" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_basecolor">
       </texture>
       <texture name="Normals" override="homecity\revolution\st_louis_academy_v1\textures\st_louis_academy_v1_mata_normals">

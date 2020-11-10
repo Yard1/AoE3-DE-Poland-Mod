@@ -511,6 +511,7 @@
       <effect type="TechStatus" status="obtainable">DERevolutionFinland</effect>
       <effect type="TechStatus" status="obtainable">DERevolutionHungaryRussian</effect>
       <effect type="TechStatus" status="obtainable">DERevolutionRomania</effect>
+      <effect type="TechStatus" status="obtainable">DERevolutionPoland</effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
         <target type="ProtoUnit">xpPetard</target>
       </effect>
@@ -1109,6 +1110,7 @@
         <target type="ProtoUnit">SettlerWagon</target>
       </effect>
       <effect type="TechStatus" status="obtainable">DERevolutionHungaryGerman</effect>
+      <effect type="TechStatus" status="obtainable">DERevolutionPoland</effect>
       <effect type="TechStatus" status="obtainable">DERevolutionArgentina</effect>
       <effect type="TechStatus" status="obtainable">DERevolutionColombia</effect>
       <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -16049,6 +16051,7 @@
       <effect type="TechStatus" status="unobtainable">DERevolutionHungaryGerman</effect>
       <effect type="TechStatus" status="unobtainable">DERevolutionArgentina</effect>
       <effect type="TechStatus" status="unobtainable">DERevolutionColombia</effect>
+      <effect type="TechStatus" status="unobtainable">DERevolutionPoland</effect>
     </effects>
   </tech>
   <tech name="ImperializeOttoman" type="Normal">
@@ -16088,6 +16091,7 @@
       <effect type="TechStatus" status="unobtainable">DERevolutionFinland</effect>
       <effect type="TechStatus" status="unobtainable">DERevolutionHungaryRussian</effect>
       <effect type="TechStatus" status="unobtainable">DERevolutionRomania</effect>
+      <effect type="TechStatus" status="unobtainable">DERevolutionPoland</effect>
     </effects>
   </tech>
   <tech name="ImperializeSpanish" type="Normal">
@@ -70636,6 +70640,9 @@
       <effect type="CommandRemove" tech="DERevolutionRomania">
         <target type="ProtoUnit">TownCenter</target>
       </effect>
+      <effect type="CommandRemove" tech="DERevolutionPoland">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
     </effects>
   </tech>
   <tech name="DERemoveMonopoly" type="Normal">
@@ -71325,6 +71332,9 @@
         <target type="ProtoUnit">TownCenter</target>
       </effect>
       <effect type="CommandAdd" tech="DERevolutionRomania" page="1" column="1">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="CommandAdd" tech="DERevolutionPoland" page="1" column="1">
         <target type="ProtoUnit">TownCenter</target>
       </effect>
       <effect type="CommandAdd" tech="DERevolutionSouthAfrica" page="1" column="1">
@@ -75704,6 +75714,129 @@
       </effect>
       <effect type="TechStatus" status="active">DERevolutionSharedEffects</effect>
       <effect type="TechStatus" status="obtainable">Bayonet</effect>
+    </effects>
+  </tech>
+  <tech name="DERevolutionPoland" type="Normal">
+    <dbid>6436</dbid>
+    <displaynameid>91839</displaynameid>
+    <cost resourcetype="Food">1000.0000</cost>
+    <cost resourcetype="Wood">1000.0000</cost>
+    <cost resourcetype="Gold">1000.0000</cost>
+    <researchpoints>10.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\images\icons\techs\revolution.png</icon>
+    <rollovertextid>80926</rollovertextid>
+    <revolutionciv>DERevPoland</revolutionciv>
+    <flag>CountsTowardEconomicScore</flag>
+    <flag>RevoltTech</flag>
+    <prereqs>
+      <techstatus status="Active">Industrialize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="TechStatus" status="active">FrontierOutpost</effect>
+      <effect type="TechStatus" status="active">FrontierBlockhouse</effect>
+      <effect type="TechStatus" status="obtainable">FortifiedBlockhouse</effect>
+      <effect type="Data" amount="4.00" subtype="FreeHomeCityUnit" unittype="ypBlockhouseWagon" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="CopyTacticAnims" fromtactic="SwordCharge" totactic="Melee" relativity="Assign">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" action="SwordHandAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" action="VolleyHandAttack" amount="0.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" action="DefendHandAttack" amount="0.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" action="StaggerHandAttack" amount="0.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" action="MeleeHandAttack" amount="0.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="CommandAdd" proto="Skirmisher" page="0" column="0">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Cost" resource="Food" relativity="Assign">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="Assign">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Cost" resource="Gold" relativity="Assign">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" amount="1.00" tactic="Stealth" subtype="TacticEnable" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" amount="99.00" subtype="BuildLimit" relativity="Assign">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" action="Build" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" action="Gather" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" action="Hunting" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" action="CrateGather" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" action="HandAttackCrate" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" action="Hunting" amount="1.00" subtype="WorkRate" unittype="AbstractInfiniteCrate" relativity="Assign">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="EnableAutoCrateGather" relativity="Assign">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" action="ChopAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="TradingPost" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="Stable" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" amount="1.00" subtype="AddTrain" unittype="ArtilleryDepot" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Outpost</target>
+      </effect>
+      <effect type="TechStatus" status="active">VeteranSkirmishersShadow</effect>
+      <effect type="TechStatus" status="obtainable">GuardSkirmishers</effect>
+      <effect type="SetName" proto="Skirmisher" culture="none" newname="80890" newrollover="80889">
+      </effect>
+      <effect type="Data" amount="0.00" subtype="CopyUnitPortraitAndIcon" unittype="Skirmisher" relativity="Absolute">
+        <target type="ProtoUnit">deIconREVKarelianJaeger</target>
+      </effect>
+      <effect type="InitiateRevolution" proto="Skirmisher">
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Settler</target>
+      </effect>
+      <effect type="Data" amount="0.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">FishingBoat</target>
+      </effect>
+      <effect type="TechStatus" status="active">XPRevolution</effect>
+      <effect type="CommandRemove" proto="Settler">
+        <target type="ProtoUnit">TownCenter</target>
+      </effect>
+      <effect type="CommandRemove" proto="FishingBoat">
+        <target type="ProtoUnit">Dock</target>
+      </effect>
     </effects>
   </tech>
   <tech name="DERevolutionSouthAfrica" type="Normal">

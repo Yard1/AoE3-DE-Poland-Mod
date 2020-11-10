@@ -515,6 +515,8 @@
   </derevolutionsouthafrica>
   <derevolutionbarbarystates portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_barbary.png">
   </derevolutionbarbarystates>
+  <derevolutionpoland portraitfilename="ui\ingame\politicians\politician_REV_higgins" portraitfilenamewpf="resources/images/icons/politicians/politician_rev_polish.png">
+  </derevolutionpoland>
   <ypbigconsulatebritish portraitfilename="ui\ingame\politicians\consulate_british" portraitfilenamewpf="resources/images/icons/politicians/consulate_british.png">
   </ypbigconsulatebritish>
   <ypbigconsulateportuguese portraitfilename="ui\ingame\politicians\consulate_portuguese" portraitfilenamewpf="resources/images/icons/politicians/consulate_portuguese.png">

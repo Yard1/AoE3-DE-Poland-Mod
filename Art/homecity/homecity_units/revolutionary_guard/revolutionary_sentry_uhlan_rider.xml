@@ -1,0 +1,8 @@
+<animfile>
+  <definebone>Bip 01 master</definebone>
+  <definebone>Bip01 Prop1</definebone>
+  <attachment>sword<component>sword<assetreference type="GrannyModel"><file>units\cavalry\uhlan\uhlan_age04_sword</file></assetreference></component><anim>Idle<component>sword</component></anim></attachment>
+  <component>ModelComp<assetreference type="GrannyModel"><file>units\cavalry\uhlan\uhlan_age04_rider</file><materialvariant index="1"></materialvariant></assetreference></component>
+  <anim>Volley_standing_idle<assetreference type="GrannyAnim"><file>animation_library\cavalry\sword_idle_A</file></assetreference><component>ModelComp</component><attach a="sword" frombone="bone_sword" tobone="Bip01 Prop1" syncanims="0"></attach></anim>
+  <anim>Volley_standing_bored<assetreference type="GrannyAnim"><file>animation_library\cavalry\sword_bored_A</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\cavalry\sword_idle_E</file></assetreference><assetreference type="GrannyAnim"><file>animation_library\cavalry\sword_idle_I</file></assetreference><component>ModelComp</component><attach a="sword" frombone="bone_sword" tobone="Bip01 Prop1" syncanims="0"></attach></anim>
+</animfile>
