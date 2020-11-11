@@ -1462,6 +1462,76 @@
       <revoltcard>
       </revoltcard>
     </card>
+    <card>
+      <name>DEHCREVScythemen</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>6</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVWingedHussars</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>6</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVCracowians</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
+      <displayunitcount>8</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVPolishMusketeers</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>16</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVGuerillaWarfare</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
+      <displayunitcount>8</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVPolishNobility</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>8</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
+    <card>
+      <name>DEHCREVPolishChasseurs</name>
+      <maxcount>-1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>3</age>
+      <displayunitcount>8</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
   </cards>
   <decks>
     <deck>
@@ -1627,6 +1697,14 @@
     <revoltdeck civ="DERevPoland">
       <name>$$45518$$</name>
       <cards>
+        <card>DEHCREVPolishChasseurs</card>
+        <card>DEHCREVShipHorseArtillery</card>
+        <card>DEHCREVPolishNobility</card>
+        <card>HCREVShipFortWagon</card>
+        <card>DEHCREVGuerillaWarfare</card>
+        <card>DEHCREVPolishMusketeers</card>
+        <card>DEHCREVCracowians</card>
+        <card>DEHCREVWingedHussars</card>
         <card>DEHCREVScythemen</card>
       </cards>
     </revoltdeck>
