@@ -9923,7 +9923,7 @@
         <target type="Player">
         </target>
       </effect>
-      <effect type="SetName" proto="Uhlan" newname="80890" newrollover="91843" reqtech="DERevolutionPolandRussian">
+      <effect type="SetName" proto="Uhlan" newname="91843" reqtech="DERevolutionPolandRussian">
       </effect>
     </effects>
   </tech>
@@ -29672,12 +29672,7 @@
       <techstatus status="Active">Fortressize</techstatus>
     </prereqs>
     <effects>
-      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">Uhlan</target>
-      </effect>
-      <effect type="Data" amount="1.20" subtype="Damage" allactions="1" relativity="BasePercent">
-        <target type="ProtoUnit">Uhlan</target>
-      </effect>
+      <effect type="TechStatus" status="active">VeteranUhlans</effect>
       <effect type="SetName" proto="Uhlan" culture="none" newname="36185">
       </effect>
       <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Uhlan" relativity="Absolute">
@@ -75757,27 +75752,6 @@
       <effect type="TechStatus" status="obtainable">Bayonet</effect>
     </effects>
   </tech>
-  <tech name="PolishUhlans" type="Normal">
-    <dbid>90</dbid>
-    <researchpoints>0.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <flag>Shadow</flag>
-    <prereqs>
-      <techstatus status="Active">Industrialize</techstatus>
-    </prereqs>
-    <effects>
-      <effect type="TechStatus" status="active">VeteranUhlans</effect>
-      <effect type="SetName" proto="Uhlan" culture="none" newname="91840">
-      </effect>
-      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Uhlan" relativity="Absolute">
-        <target type="Player">
-        </target>
-      </effect>
-      <effect type="Data" action="MeleeHandAttack" amount="1.00" subtype="DamageBonus" unittype="AbstractLightInfantry" relativity="Absolute">
-        <target type="ProtoUnit">Uhlan</target>
-      </effect>
-    </effects>
-  </tech>
   <tech name="DEHCREVScythemen" type="Normal">
     <dbid>6684</dbid>
     <displaynameid>91847</displaynameid>
@@ -75924,6 +75898,27 @@
       </effect>
     </effects>
   </tech>
+  <tech name="DEHCREVPolishMusketeersShadow" type="Normal">
+    <dbid>2663</dbid>
+    <researchpoints>0.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <flag>Shadow</flag>
+    <prereqs>
+      <techstatus status="Active">Fortressize</techstatus>
+    </prereqs>
+    <effects>
+      <effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+        <target type="ProtoUnit">Musketeer</target>
+      </effect>
+      <effect type="CommandAdd" page="0" column="0" proto="Musketeer">
+        <target type="ProtoUnit">Barracks</target>
+      </effect>
+      <effect type="CommandAdd" page="0" column="0" proto="Musketeer">
+        <target type="ProtoUnit">FortFrontier</target>
+      </effect>
+      <effect type="TechStatus" status="obtainable">GuardMusketeers</effect>
+    </effects>
+  </tech>
   <tech name="DEHCREVPolishMusketeers" type="Normal">
     <dbid>6559</dbid>
     <displaynameid>91854</displaynameid>
@@ -75934,6 +75929,7 @@
     <flag>HomeCity</flag>
     <effects>
       <effect type="TechStatus" status="active">VeteranMusketeers</effect>
+      <effect type="TechStatus" status="active">DEHCREVPolishMusketeersShadow</effect>
       <effect type="Data" amount="16.00" subtype="FreeHomeCityUnit" unittype="Musketeer" relativity="Absolute">
         <target type="Player">
         </target>
@@ -76140,7 +76136,16 @@
         <target type="ProtoUnit">Skirmisher</target>
       </effect>
 
-      <effect type="TechStatus" status="active">PolishUhlans</effect>
+      <effect type="TechStatus" status="active">VeteranUhlans</effect>
+      <effect type="SetName" proto="Uhlan" culture="none" newname="91840">
+      </effect>
+      <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Uhlan" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+      <effect type="Data" action="MeleeHandAttack" amount="1.00" subtype="DamageBonus" unittype="AbstractLightInfantry" relativity="Absolute">
+        <target type="ProtoUnit">Uhlan</target>
+      </effect>
 
       <effect type="SetName" proto="Skirmisher" culture="none" newname="91844" newrollover="91845">
       </effect>
@@ -76242,7 +76247,7 @@
       <effect type="TechStatus" status="active">VeteranSkirmishersShadow</effect>
       <effect type="TechStatus" status="obtainable">GuardSkirmishers</effect>
 
-      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+      <effect type="Data" amount="35.0" subtype="Hitpoints" relativity="Absolute">
         <target type="ProtoUnit">Uhlan</target>
       </effect>
 
@@ -76280,8 +76285,8 @@
       <effect type="SetName" proto="Uhlan" culture="none" newname="91841">
       </effect>
 
-      <effect type="TechStatus" status="unobtainable">GuardCossacks</effect>
       <effect type="TechStatus" status="unobtainable">VeteranCossacks</effect>
+      <effect type="TechStatus" status="unobtainable">GuardCossacks</effect>
 
       <effect type="TransformUnit" toprotoid="Uhlan" fromprotoid="Cossack"/>
 

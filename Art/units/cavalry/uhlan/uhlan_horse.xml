@@ -24,7 +24,6 @@
                         </assetreference>
                     </lowpoly>
                 </logic>
-                <attach a="RiderAttachment" frombone="hotspot" tobone="Attachpoint" syncanims="1"></attach>
             </none>
             <veteranuhlans>
                 <logic type="LowPoly">
@@ -39,7 +38,6 @@
                         </assetreference>
                     </lowpoly>
                 </logic>
-                <attach a="RiderAttachment" frombone="hotspot" tobone="Attachpoint" syncanims="1"></attach>
             </veteranuhlans>
             <guarduhlans>
                 <logic type="LowPoly">
@@ -54,7 +52,6 @@
                         </assetreference>
                     </lowpoly>
                 </logic>
-                <attach a="RiderAttachment" frombone="hotspot" tobone="Attachpoint" syncanims="1"></attach>
             </guarduhlans>
         </logic>
         <decal>
@@ -64,6 +61,14 @@
             <width>1.50</width>
             <height>3.00</height>
         </decal>
+        <logic type="Tech">
+            <none>
+                <attach a="RiderAttachment" frombone="hotspot" tobone="Attachpoint" syncanims="1"></attach>
+            </none>
+            <DERevolutionPolandGerman>
+                <attach a="UhlanRiderAttachment" frombone="hotspot" tobone="Attachpoint" syncanims="1"></attach>
+            </DERevolutionPolandGerman>
+        </logic>
     </component>
     <anim>Walk
         <assetreference type="GrannyAnim">
