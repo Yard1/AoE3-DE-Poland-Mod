@@ -22,11 +22,16 @@
                     <file>units\infantry_ranged\carolean\carolean_age4_hat</file>
                 </assetreference>
             </derevolutionfinland>
-            <derevolutionpoland>
+            <derevolutionpolandgerman>
                 <assetreference type="GrannyModel">
                     <file>units\revolution\dorobant\dorobant_hat</file>
                 </assetreference>
-            </derevolutionpoland>
+            </derevolutionpolandgerman>
+            <derevolutionpolandrussian>
+                <assetreference type="GrannyModel">
+                    <file>units\revolution\dorobant\dorobant_hat</file>
+                </assetreference>
+            </derevolutionpolandrussian>
         </logic>
     </component>
     <anim>Idle

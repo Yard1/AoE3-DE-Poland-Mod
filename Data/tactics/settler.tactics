@@ -1,5 +1,22 @@
 <tactics>
   <action>
+    <name stringid="38135">PikeAttack</name>
+    <active>0</active>
+    <type>Attack</type>
+    <maxrange>2</maxrange>
+    <rate type="Unit">1.0 </rate>
+    <attackaction>1</attackaction>
+    <handlogic>1</handlogic>
+    <speedboost>1</speedboost>
+    <anim>PikeAttack</anim>
+    <impacteffect>effects\impacts\melee</impacteffect>
+    <targetspeedboost>1</targetspeedboost>
+    <rate type="Military">1.0 </rate>
+    <rate type="Economic">1.0 </rate>
+    <rate type="Guardian">1.0 </rate>
+    <rate type="Herdable">1.0 </rate>
+  </action>
+  <action>
     <name stringid="69149">AutoGatherTrade</name>
     <type>AutoGather</type>
     <donotautogatherunlessgathering>1</donotautogatherunlessgathering>
@@ -179,5 +196,5 @@
     <rate type="Tree">1.0 </rate>
     <hidefromstats>1</hidefromstats>
   </action>
-  <tactic>Normal<speedmodifier>1.0</speedmodifier><action>Build</action><action>Gather</action><action>Discover</action><action>NoWork</action><action>CrateGather</action><action>Hunting</action><action>AutoGatherTrade</action><action>AutoGatherXP</action><action priority="100">BuildingAttack</action><action priority="90">ChopAttack</action><action priority="50">SpearAttack</action><action priority="50">BlunderbussAttack</action><action priority="25">HandAttack</action><action priority="20">HandAttackCrate</action><attacktype>LogicalTypeVillagersAttack</attacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget></tactic>
+  <tactic>Normal<speedmodifier>1.0</speedmodifier><action>Build</action><action>Gather</action><action>Discover</action><action>NoWork</action><action>CrateGather</action><action>Hunting</action><action>AutoGatherTrade</action><action>AutoGatherXP</action><action priority="100">BuildingAttack</action><action priority="90">ChopAttack</action><action priority="50">SpearAttack</action><action priority="50">BlunderbussAttack</action><action priority="25">HandAttack</action><action priority="25">PikeAttack</action><action priority="20">HandAttackCrate</action><attacktype>LogicalTypeVillagersAttack</attacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><runaway>0</runaway><autoretarget>1</autoretarget></tactic>
 </tactics>

@@ -1414,6 +1414,16 @@
       <revoltcard>
       </revoltcard>
     </card>
+    <card>
+      <name>DEHCREVScythemen</name>
+      <maxcount>1</maxcount>
+      <level>0</level>
+      <prereqtech>XPRevolution</prereqtech>
+      <age>2</age>
+      <displayunitcount>6</displayunitcount>
+      <revoltcard>
+      </revoltcard>
+    </card>
   </cards>
   <decks>
     <deck>
@@ -1569,6 +1579,12 @@
         <card>DEHCREVLlaneros</card>
         <card>DEHCREVCattleDeliveryColombia</card>
         <card>DEHCREVCitizenship</card>
+      </cards>
+    </revoltdeck>
+    <revoltdeck civ="DERevPoland">
+      <name>$$45518$$</name>
+      <cards>
+        <card>DEHCREVScythemen</card>
       </cards>
     </revoltdeck>
   </decks>

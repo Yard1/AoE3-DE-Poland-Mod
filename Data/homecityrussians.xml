@@ -1624,6 +1624,12 @@
         <card>DEHCREVRoshiorDragoons</card>
       </cards>
     </revoltdeck>
+    <revoltdeck civ="DERevPoland">
+      <name>$$45518$$</name>
+      <cards>
+        <card>DEHCREVScythemen</card>
+      </cards>
+    </revoltdeck>
   </decks>
   <building>
     <name>Estate</name>

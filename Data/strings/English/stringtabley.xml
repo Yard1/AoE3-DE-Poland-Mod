@@ -34096,5 +34096,14 @@
     <string _locid="91837">Poles</string>
     <string _locid="91838">Warsaw</string>
     <string _locid="91839">Poland</string>
+    <string _locid="91840">Polish Lancer Uhlan</string>
+    <string _locid="91841">Polish Uhlan</string>
+    <string _locid="91842">Insurgent Needle Gunner</string>
+    <string _locid="91843">Guard Polish Uhlan</string>
+    <string _locid="91844">Insurgent</string>
+    <string _locid="91845">Skirmisher with low hitpoints, but a long-ranged attack. Good against infantry. Gathers from trees, resource crates, and constructs Blockhouses.</string>
+    <string _locid="91846">Ships 6 Citizens and enables Citizens at the Town Center.</string>
+    <string _locid="91847">Feed and Defend</string>
+    <string _locid="91848">Scytheman</string>
   </language>
 </stringtable>

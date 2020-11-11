@@ -100,13 +100,20 @@
                 </assetreference>
                 <attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"></attach>
             </derevolutionfinland>
-            <derevolutionpoland>
+            <derevolutionpolandgerman>
                 <assetreference type="GrannyModel">
                     <file>units\asians\natives\sepoy\sepoy_02</file>
                     <materialvariant index="1"></materialvariant>
                 </assetreference>
                 <attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"></attach>
-            </derevolutionpoland>
+            </derevolutionpolandgerman>
+            <derevolutionpolandrussian>
+                <assetreference type="GrannyModel">
+                    <file>units\asians\natives\sepoy\sepoy_02</file>
+                    <materialvariant index="1"></materialvariant>
+                </assetreference>
+                <attach a="hats" frombone="bone_hat" tobone="HEAD" syncanims="0"></attach>
+            </derevolutionpolandrussian>
         </logic>
         <decal>
             <effecttype>default</effecttype>
