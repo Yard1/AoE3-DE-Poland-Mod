@@ -75919,6 +75919,24 @@
       <effect type="TechStatus" status="obtainable">GuardMusketeers</effect>
     </effects>
   </tech>
+  <tech name="DEHCREVPolishMusketeersGerman" type="Normal">
+    <dbid>6559</dbid>
+    <displaynameid>91854</displaynameid>
+    <rollovertextid>91864</rollovertextid>
+    <cost resourcetype="Ships">1.0000</cost>
+    <researchpoints>40.0000</researchpoints>
+    <status>UNOBTAINABLE</status>
+    <icon>resources\art\units\infantry_ranged\musketeer\musketeer_icon_64x64.png</icon>
+    <flag>HomeCity</flag>
+    <effects>
+      <effect type="TechStatus" status="active">VeteranMusketeers</effect>
+      <effect type="TechStatus" status="active">DEHCREVPolishMusketeersShadow</effect>
+      <effect type="Data" amount="16.00" subtype="FreeHomeCityUnit" unittype="Musketeer" relativity="Absolute">
+        <target type="Player">
+        </target>
+      </effect>
+    </effects>
+  </tech>
   <tech name="DEHCREVPolishMusketeers" type="Normal">
     <dbid>6559</dbid>
     <displaynameid>91854</displaynameid>
@@ -75929,7 +75947,6 @@
     <flag>HomeCity</flag>
     <effects>
       <effect type="TechStatus" status="active">VeteranMusketeers</effect>
-      <effect type="TechStatus" status="active">DEHCREVPolishMusketeersShadow</effect>
       <effect type="Data" amount="16.00" subtype="FreeHomeCityUnit" unittype="Musketeer" relativity="Absolute">
         <target type="Player">
         </target>
@@ -75979,22 +75996,16 @@
       <effect type="Data" action="DefendRangedAttack" amount="1.00" subtype="WorkRate" unittype="Huntable" relativity="Assign">
         <target type="ProtoUnit">Skirmisher</target>
       </effect>
+      <effect type="Data" action="DefendRangedAttack" amount="5.00" subtype="DamageBonus" unittype="Llama" relativity="Assign">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
       <effect type="Data" action="StaggerRangedAttack" amount="1.00" subtype="WorkRate" unittype="Huntable" relativity="Assign">
         <target type="ProtoUnit">Skirmisher</target>
       </effect>
+      <effect type="Data" action="StaggerRangedAttack" amount="5.00" subtype="DamageBonus" unittype="Llama" relativity="Assign">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
       <effect type="Data" action="SwordHandAttack" amount="1.00" subtype="WorkRate" unittype="Huntable" relativity="Assign">
-        <target type="ProtoUnit">Skirmisher</target>
-      </effect>
-      <effect type="Data" action="VolleyHandAttack" amount="1.00" subtype="WorkRate" unittype="Huntable" relativity="Assign">
-        <target type="ProtoUnit">Skirmisher</target>
-      </effect>
-      <effect type="Data" action="DefendHandAttack" amount="1.00" subtype="WorkRate" unittype="Huntable" relativity="Assign">
-        <target type="ProtoUnit">Skirmisher</target>
-      </effect>
-      <effect type="Data" action="StaggerHandAttack" amount="1.00" subtype="WorkRate" unittype="Huntable" relativity="Assign">
-        <target type="ProtoUnit">Skirmisher</target>
-      </effect>
-      <effect type="Data" action="MeleeHandAttack" amount="1.00" subtype="WorkRate" unittype="Huntable" relativity="Assign">
         <target type="ProtoUnit">Skirmisher</target>
       </effect>
       <effect type="Data" action="Hunting" amount="1.00" subtype="WorkRate" unittype="Huntable" relativity="Assign">
@@ -76057,7 +76068,7 @@
     <researchpoints>10.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\revolution.png</icon>
-    <rollovertextid>80926</rollovertextid>
+    <rollovertextid>91862</rollovertextid>
     <revolutionciv>DERevPoland</revolutionciv>
     <flag>CountsTowardEconomicScore</flag>
     <flag>RevoltTech</flag>
@@ -76067,6 +76078,15 @@
     <effects>
       <effect type="TechStatus" status="active">ImpKnighthood</effect>
       <effect type="Data" amount="1.5" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Hero</target>
+      </effect>
+      <effect type="Data" action="HandAttack" amount="2.00" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">Hero</target>
+      </effect>
+      <effect type="Data" action="VolleyRangedAttack" amount="2.00" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">Hero</target>
+      </effect>
+      <effect type="Data" action="MusketAttack" amount="2.00" subtype="Damage" relativity="BasePercent">
         <target type="ProtoUnit">Hero</target>
       </effect>
       <effect type="Data" action="SwashbucklerAttack" amount="2.0" subtype="Damage" relativity="BasePercent">
@@ -76165,7 +76185,7 @@
     <researchpoints>10.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\images\icons\techs\revolution.png</icon>
-    <rollovertextid>80926</rollovertextid>
+    <rollovertextid>91863</rollovertextid>
     <revolutionciv>DERevPoland</revolutionciv>
     <flag>CountsTowardEconomicScore</flag>
     <flag>RevoltTech</flag>
@@ -76175,6 +76195,15 @@
     <effects>
       <effect type="TechStatus" status="active">ImpKnighthood</effect>
       <effect type="Data" amount="1.5" subtype="Hitpoints" relativity="BasePercent">
+        <target type="ProtoUnit">Hero</target>
+      </effect>
+      <effect type="Data" action="HandAttack" amount="2.00" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">Hero</target>
+      </effect>
+      <effect type="Data" action="VolleyRangedAttack" amount="2.00" subtype="Damage" relativity="BasePercent">
+        <target type="ProtoUnit">Hero</target>
+      </effect>
+      <effect type="Data" action="MusketAttack" amount="2.00" subtype="Damage" relativity="BasePercent">
         <target type="ProtoUnit">Hero</target>
       </effect>
       <effect type="Data" action="SwashbucklerAttack" amount="2.0" subtype="Damage" relativity="BasePercent">

@@ -1445,7 +1445,7 @@
       </revoltcard>
     </card>
     <card>
-      <name>DEHCREVPolishMusketeers</name>
+      <name>DEHCREVPolishMusketeersGerman</name>
       <maxcount>-1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
@@ -1659,7 +1659,7 @@
         <card>DEHCREVPolishNobility</card>
         <card>HCREVShipFortWagon</card>
         <card>DEHCREVGuerillaWarfare</card>
-        <card>DEHCREVPolishMusketeers</card>
+        <card>DEHCREVPolishMusketeersGerman</card>
         <card>DEHCREVCracowians</card>
         <card>DEHCREVWingedHussars</card>
         <card>DEHCREVScythemen</card>
