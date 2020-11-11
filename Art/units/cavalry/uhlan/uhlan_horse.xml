@@ -56,21 +56,6 @@
                 </logic>
                 <attach a="RiderAttachment" frombone="hotspot" tobone="Attachpoint" syncanims="1"></attach>
             </guarduhlans>
-            <polishuhlans>
-                <logic type="LowPoly">
-                    <normal>
-                        <assetreference type="GrannyModel">
-                            <file>units\cavalry\uhlan\uhlan_age04_horse</file>
-                        </assetreference>
-                    </normal>
-                    <lowpoly>
-                        <assetreference type="GrannyModel">
-                            <file>units\cavalry\uhlan\lp_uhlan_age04_horse</file>
-                        </assetreference>
-                    </lowpoly>
-                </logic>
-                <attach a="UhlanRiderAttachment" frombone="hotspot" tobone="Attachpoint" syncanims="1"></attach>
-            </polishuhlans>
         </logic>
         <decal>
             <effecttype>default</effecttype>

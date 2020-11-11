@@ -7,7 +7,7 @@
     <maxrange>24</maxrange>
     <persistent>1</persistent>
     <modifytype>Damage</modifytype>
-    <modifymultiplier>1.1</modifymultiplier>
+    <modifymultiplier>1.05</modifymultiplier>
     <modelattachment>effects\ypack_auras\daimyopower.xml</modelattachment>
     <modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
   </action>

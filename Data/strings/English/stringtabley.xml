@@ -34101,21 +34101,21 @@
     <string _locid="91842">Insurgent Needle Gunner</string>
     <string _locid="91843">Guard Polish Uhlan</string>
     <string _locid="91844">Insurgent</string>
-    <string _locid="91845">Skirmisher with low hitpoints, but a long-ranged attack. Good against infantry. Gathers from trees, resource crates, and constructs Blockhouses.</string>
-    <string _locid="91846">Ships 6 Scythemen and enables Scythemen at the Town Center. Scythemen are Settlers with a decent anti-cavalry melee attack. but without a ranged attack.</string>
+    <string _locid="91845">Skirmisher with low hitpoints, but a long-ranged attack. Good against infantry. Can gather from crates and pick up treasures.</string>
+    <string _locid="91846">Ships 6 Scythemen and enables Scythemen at the Town Center. Scythemen are Settlers with a decent anti-cavalry melee attack, but without a ranged attack.</string>
     <string _locid="91847">Feed and Defend</string>
     <string _locid="91848">Scytheman</string>
     <string _locid="91849">Knighthood and Peerage researched. Improves your Explorer in melee combat, lets him train Uhlans and Insurgents, allows him to receive shipments and grants him a damage aura.</string>
     <string _locid="91850">Szlachta</string>
     <string _locid="91851">Ships a squadron of 6 Guard Hussars.</string>
     <string _locid="91852">Cracovian Uhlans</string>
-    <string _locid="91853">Ships 8 Uhlans. Uhlans take up one less population slot and train twice as fast. You can now train Uhlans from Outposts and Blockhouses.</string>
+    <string _locid="91853">Ships 8 Uhlans. Uhlans now cost 75 Food and 75 Gold and train 15% faster. You can now train Uhlans from Outposts and Blockhouses.</string>
     <string _locid="91854">16 Musketeers</string>
     <string _locid="91855">Guerilla Warfare</string>
-    <string _locid="91856">Ships 8 Insurgents. Allows Insurgents to use stealth and hunt wild animals. You can now train Insurgents from Outposts.</string>
-    <string _locid="91857">Ships 8 Uhlans. Outfits Insurgents with sabres, vastly improving their melee attack and hitpoints. Uhlan attack and hitpoints increased.</string>
+    <string _locid="91856">Ships 8 Insurgents. Outfits Insurgents with sabres, improving their melee attack. Allows Insurgents to use stealth and hunt wild animals. You can now train Insurgents from Outposts.</string>
+    <string _locid="91857">Ships 8 Uhlans. Uhlan attack and hitpoints increased.</string>
     <string _locid="91858">Chasseurs</string>
     <string _locid="91860">Chasseur</string>
-    <string _locid="91859">Ships 8 Chasseurs. Dragoons upgrade to Chasseurs, who have an additional attack bonus against heavy infantry.</string>
+    <string _locid="91861">Guard Polish Lancer Uhlan</string>
   </language>
 </stringtable>

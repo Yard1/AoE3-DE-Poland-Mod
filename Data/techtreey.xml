@@ -13886,6 +13886,8 @@
       <effect type="TechStatus" status="active">GuardUhlans</effect>
       <effect type="SetName" proto="Uhlan" culture="none" newname="32337">
       </effect>
+      <effect type="SetName" proto="Uhlan" culture="none" newname="91861" reqtech="DERevolutionPolandGerman">
+      </effect>
     </effects>
   </tech>
   <tech name="HCUnlockFort" type="Normal">
@@ -75765,19 +75767,13 @@
     </prereqs>
     <effects>
       <effect type="TechStatus" status="active">VeteranUhlans</effect>
-      <effect type="Data" amount="1.30" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">Uhlan</target>
-      </effect>
-      <effect type="Data" amount="1.30" subtype="Damage" allactions="1" relativity="BasePercent">
-        <target type="ProtoUnit">Uhlan</target>
-      </effect>
       <effect type="SetName" proto="Uhlan" culture="none" newname="91840">
       </effect>
       <effect type="Data" amount="0.00" subtype="UpdateVisual" unittype="Uhlan" relativity="Absolute">
         <target type="Player">
         </target>
       </effect>
-      <effect type="Data" action="MeleeHandAttack" amount="2.00" subtype="DamageBonus" unittype="AbstractInfantry" relativity="Absolute">
+      <effect type="Data" action="MeleeHandAttack" amount="1.00" subtype="DamageBonus" unittype="AbstractLightInfantry" relativity="Absolute">
         <target type="ProtoUnit">Uhlan</target>
       </effect>
     </effects>
@@ -75827,7 +75823,10 @@
       </effect>
       <effect type="SetName" proto="Settler" culture="none" newname="91848">
       </effect>
-      <effect type="Data" amount="100.00" subtype="Cost" resource="Food" relativity="Assign">
+      <effect type="Data" amount="0.5" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">Settler</target>
+      </effect>
+      <effect type="Data" amount="110.00" subtype="Cost" resource="Food" relativity="Assign">
         <target type="ProtoUnit">Settler</target>
       </effect>
       <effect type="Data" amount="0.00" subtype="Cost" resource="Wood" relativity="Assign">
@@ -75845,7 +75844,10 @@
       </effect>
       <effect type="SetName" proto="SettlerWagon" culture="none" newname="79924">
       </effect>
-      <effect type="Data" amount="100.00" subtype="Cost" resource="Food" relativity="Assign">
+      <effect type="Data" amount="0.5" subtype="MaximumVelocity" relativity="Absolute">
+        <target type="ProtoUnit">SettlerWagon</target>
+      </effect>
+      <effect type="Data" amount="110.00" subtype="Cost" resource="Food" relativity="Assign">
         <target type="ProtoUnit">SettlerWagon</target>
       </effect>
       <effect type="Data" amount="100.00" subtype="Cost" resource="Wood" relativity="Assign">
@@ -75888,10 +75890,13 @@
       <techstatus status="Active">Fortressize</techstatus>
     </prereqs>
     <effects>
-      <effect type="Data" amount="1.00" subtype="PopulationCount" relativity="Assign">
+      <effect type="Data" amount="0.85" subtype="TrainPoints" relativity="BasePercent">
         <target type="ProtoUnit">Uhlan</target>
       </effect>
-      <effect type="Data" amount="0.5" subtype="TrainPoints" relativity="BasePercent">
+      <effect type="Data" amount="25.00" subtype="Cost" resource="Food" relativity="Absolute">
+        <target type="ProtoUnit">Uhlan</target>
+      </effect>
+      <effect type="Data" amount="-25.00" subtype="Cost" resource="Gold" relativity="Absolute">
         <target type="ProtoUnit">Uhlan</target>
       </effect>
       <effect type="Data" amount="1.00" subtype="AddTrain" unittype="Uhlan" relativity="Absolute">
@@ -75945,6 +75950,24 @@
     <icon>resources\images\icons\techs\hc_wilderness_warfare\hc_wilderness_warfare.png</icon>
     <flag>HomeCity</flag>
     <effects>
+      <effect type="Data" amount="1.00" subtype="CopyTacticAnims" fromtactic="SwordCharge" totactic="Melee" relativity="Assign">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" action="SwordHandAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" action="VolleyHandAttack" amount="0.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" action="DefendHandAttack" amount="0.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" action="StaggerHandAttack" amount="0.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
+      <effect type="Data" action="MeleeHandAttack" amount="0.00" subtype="ActionEnable" relativity="Absolute">
+        <target type="ProtoUnit">Skirmisher</target>
+      </effect>
       <effect type="Data" amount="1.00" subtype="AddTrain" unittype="Skirmisher" relativity="Absolute">
         <target type="ProtoUnit">Outpost</target>
       </effect>
@@ -75996,34 +76019,13 @@
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
-    <icon>resources\images\icons\techs\imperial_peerage\imp_peerage.png</icon>
+    <icon>resources\images\icons\techs\imperial_knighthood\imp_knighthood.png</icon>
     <rollovertextid>91857</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="Uhlan" relativity="Absolute">
         <target type="Player">
         </target>
-      </effect>
-      <effect type="Data" amount="1.00" subtype="CopyTacticAnims" fromtactic="SwordCharge" totactic="Melee" relativity="Assign">
-        <target type="ProtoUnit">Skirmisher</target>
-      </effect>
-      <effect type="Data" action="SwordHandAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">Skirmisher</target>
-      </effect>
-      <effect type="Data" action="VolleyHandAttack" amount="0.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">Skirmisher</target>
-      </effect>
-      <effect type="Data" action="DefendHandAttack" amount="0.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">Skirmisher</target>
-      </effect>
-      <effect type="Data" action="StaggerHandAttack" amount="0.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">Skirmisher</target>
-      </effect>
-      <effect type="Data" action="MeleeHandAttack" amount="0.00" subtype="ActionEnable" relativity="Absolute">
-        <target type="ProtoUnit">Skirmisher</target>
-      </effect>
-      <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
-        <target type="ProtoUnit">Skirmisher</target>
       </effect>
       <effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">Uhlan</target>
@@ -76033,31 +76035,12 @@
       </effect>
     </effects>
   </tech>
-  <tech name="DEHCREVPolishChasseursShadow" type="Normal">
-    <dbid>2663</dbid>
-    <researchpoints>0.0000</researchpoints>
-    <status>UNOBTAINABLE</status>
-    <flag>Shadow</flag>
-    <prereqs>
-      <techstatus status="Active">Fortressize</techstatus>
-    </prereqs>
-    <effects>
-      <effect type="Data" action="DefendRangedAttack" amount="1.50" subtype="DamageBonus" unittype="AbstractHeavyInfantry" relativity="Assign">
-        <target type="ProtoUnit">Dragoon</target>
-      </effect>
-      <effect type="Data" action="StaggerRangedAttack" amount="1.50" subtype="DamageBonus" unittype="AbstractHeavyInfantry" relativity="Assign">
-        <target type="ProtoUnit">Dragoon</target>
-      </effect>
-      <effect type="SetName" proto="Dragoon" culture="none" newname="91860"></effect>
-    </effects>
-  </tech>
   <tech name="DEHCREVPolishChasseurs" type="Normal">
     <dbid>6544</dbid>
     <displaynameid>91858</displaynameid>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <icon>resources\art\units\cavalry\dragoon\dragoon_icon_64x64.png</icon>
-    <rollovertextid>91859</rollovertextid>
     <flag>HomeCity</flag>
     <effects>
       <effect type="Data" amount="8.00" subtype="FreeHomeCityUnit" unittype="Dragoon" relativity="Absolute">
@@ -76066,7 +76049,7 @@
       </effect>
       <effect type="TechStatus" status="active">VeteranDragoonsShadow</effect>
       <effect type="TechStatus" status="active">GuardDragoons</effect>
-      <effect type="TechStatus" status="active">DEHCREVPolishChasseursShadow</effect>
+      <effect type="SetName" proto="Dragoon" culture="none" newname="91860"></effect>
     </effects>
   </tech>
   <tech name="DERevolutionPolandGerman" type="Normal">
@@ -76087,7 +76070,6 @@
     </prereqs>
     <effects>
       <effect type="TechStatus" status="active">ImpKnighthood</effect>
-      <effect type="TechStatus" status="active">ImpPeerage</effect>
       <effect type="Data" amount="1.5" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">Hero</target>
       </effect>
@@ -76159,7 +76141,6 @@
       </effect>
 
       <effect type="TechStatus" status="active">PolishUhlans</effect>
-      <effect type="TechStatus" status="unobtainable">RGCzapkaUhlans</effect>
 
       <effect type="SetName" proto="Skirmisher" culture="none" newname="91844" newrollover="91845">
       </effect>
@@ -76188,7 +76169,6 @@
     </prereqs>
     <effects>
       <effect type="TechStatus" status="active">ImpKnighthood</effect>
-      <effect type="TechStatus" status="active">ImpPeerage</effect>
       <effect type="Data" amount="1.5" subtype="Hitpoints" relativity="BasePercent">
         <target type="ProtoUnit">Hero</target>
       </effect>
