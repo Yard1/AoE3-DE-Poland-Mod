@@ -857,7 +857,7 @@ void initArrays(void)
       xsArraySetInt(gAge5WonderTechList, 13, cTechYPWonderJapaneseToriiGates5);
       xsArraySetInt(gAge5WonderTechList, 14, cTechYPWonderJapaneseToshoguShrine5);
       
-   gRevolutionList = xsArrayCreateInt(20, 0, "Revolution List");
+   gRevolutionList = xsArrayCreateInt(22, 0, "Revolution List");
       xsArraySetInt(gRevolutionList, 0, cTechDERevolutionHaiti);
 		xsArraySetInt(gRevolutionList, 1, cTechDERevolutionEgypt);
 		xsArraySetInt(gRevolutionList, 2, cTechDERevolutionFinland);
@@ -878,6 +878,8 @@ void initArrays(void)
 		xsArraySetInt(gRevolutionList, 17, cTechDERevolutionColombiaPortuguese);
 		xsArraySetInt(gRevolutionList, 18, cTechDERevolutionChile);
 		xsArraySetInt(gRevolutionList, 19, cTechDERevolutionSouthAfrica);
+		xsArraySetInt(gRevolutionList, 20, cTechDERevolutionPolandRussian);
+		xsArraySetInt(gRevolutionList, 21, cTechDERevolutionPolandGerman);
       
    gAgeUpPoliticians = xsArrayCreateInt(10, 0, "Ageup Politicians");
    gPoliticianScores = xsArrayCreateInt(10, 0, "European Politicians");
@@ -3963,7 +3965,9 @@ void updateResourceDistribution()
          else if (kbTechGetStatus(cTechDEHCREVCitizenship) == cTechStatusActive ||
                   kbTechGetStatus(cTechDEHCREVCitizenshipOutpost) == cTechStatusActive ||
                   kbTechGetStatus(cTechDEHCREVMinasGerais) == cTechStatusActive ||
-                  kbTechGetStatus(cTechDEHCREVSalitrera) == cTechStatusActive)
+                  kbTechGetStatus(cTechDEHCREVSalitrera) == cTechStatusActive ||
+                  kbTechGetStatus(cTechDEHCREVScythemen) == cTechStatusActive
+                  )
          {
             if (goldNeeded > -100.0)
                aiSetReservedGatherRate(cResourceGold, 2.8);
@@ -19669,6 +19673,14 @@ void transportShipmentArrive(int techID = -1)
       gRevolutionType = cRevolutionEconomic;
       break;   
    }
+   case cTechDEHCREVScythemen:
+   {
+      cvOkToGatherFood = true;
+      cvOkToGatherWood = true;
+      cvOkToGatherGold = true;
+      gRevolutionType = cRevolutionEconomic;
+      break;   
+   }
    case cTechHCGermantownFarmers:
    {
       createSimpleMaintainPlan(cUnitTypeSettlerWagon, kbGetBuildLimit(cMyID, cUnitTypeSettlerWagon), true, kbBaseGetMainID(cMyID), 1);
@@ -20414,7 +20426,8 @@ void shipGrantedHandler(int parm = -1) // Event handler
                    tech == cTechDEHCREVCitizenshipOutpost ||
                    tech == cTechDEHCREVAcehExports ||
                    tech == cTechDEHCREVMinasGerais ||
-                   tech == cTechDEHCREVSalitrera)
+                   tech == cTechDEHCREVSalitrera ||
+                   tech == cTechDEHCREVScythemen)
                {
                   // we are running out of resources, send the citizenship shipment to restore our economy.
                   if (xsArrayGetFloat(gResourceNeeds, cResourceFood) > -1000.0 ||
