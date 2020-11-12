@@ -3965,7 +3965,9 @@ void updateResourceDistribution()
          else if (kbTechGetStatus(cTechDEHCREVCitizenship) == cTechStatusActive ||
                   kbTechGetStatus(cTechDEHCREVCitizenshipOutpost) == cTechStatusActive ||
                   kbTechGetStatus(cTechDEHCREVMinasGerais) == cTechStatusActive ||
-                  kbTechGetStatus(cTechDEHCREVSalitrera) == cTechStatusActive)
+                  kbTechGetStatus(cTechDEHCREVSalitrera) == cTechStatusActive ||
+                  kbTechGetStatus(cTechDEHCREVScythemen) == cTechStatusActive
+                  )
          {
             if (goldNeeded > -100.0)
                aiSetReservedGatherRate(cResourceGold, 2.8);
@@ -19671,6 +19673,14 @@ void transportShipmentArrive(int techID = -1)
       gRevolutionType = cRevolutionEconomic;
       break;   
    }
+   case cTechDEHCREVScythemen:
+   {
+      cvOkToGatherFood = true;
+      cvOkToGatherWood = true;
+      cvOkToGatherGold = true;
+      gRevolutionType = cRevolutionEconomic;
+      break;   
+   }
    case cTechHCGermantownFarmers:
    {
       createSimpleMaintainPlan(cUnitTypeSettlerWagon, kbGetBuildLimit(cMyID, cUnitTypeSettlerWagon), true, kbBaseGetMainID(cMyID), 1);
@@ -20416,7 +20426,8 @@ void shipGrantedHandler(int parm = -1) // Event handler
                    tech == cTechDEHCREVCitizenshipOutpost ||
                    tech == cTechDEHCREVAcehExports ||
                    tech == cTechDEHCREVMinasGerais ||
-                   tech == cTechDEHCREVSalitrera)
+                   tech == cTechDEHCREVSalitrera ||
+                   tech == cTechDEHCREVScythemen)
                {
                   // we are running out of resources, send the citizenship shipment to restore our economy.
                   if (xsArrayGetFloat(gResourceNeeds, cResourceFood) > -1000.0 ||
