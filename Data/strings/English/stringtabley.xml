@@ -34110,7 +34110,7 @@
     <string _locid="91851">Ships a squadron of 6 Guard Hussars.</string>
     <string _locid="91852">Cracovian Uhlans</string>
     <string _locid="91853">Ships 8 Uhlans. Uhlans now cost 75 Food and 75 Gold and train 15% faster. You can now train Uhlans from Outposts and Blockhouses.</string>
-    <string _locid="91854">16 Musketeers</string>
+    <string _locid="91854">Regulars</string>
     <string _locid="91855">Guerilla Warfare</string>
     <string _locid="91856">Ships 8 Insurgents. Outfits Insurgents with sabres, improving their melee attack. Allows Insurgents to use stealth and hunt wild animals. You can now train Insurgents from Outposts.</string>
     <string _locid="91857">Ships 8 Uhlans. Uhlan attack and hitpoints increased.</string>
@@ -34120,5 +34120,6 @@
     <string _locid="91862">Improves Explorer in combat, grants him an aura, lets him train units and receive shipments. Uhlans recieve a bonus against Light Infantry. Settlers become Insurgents (Skirmishers).</string>
     <string _locid="91863">Improves Explorer in combat, grants him an aura, lets him train units and receive shipments. Cossacks become Uhlans with extra hitpoints. Settlers become Insurgents (Skirmishers).</string>
     <string _locid="91864">Enables Musketeers to be trained.</string>
+    <string _locid="91865">Spawns 8 Chasseurs - Dragoons with increased attack and speed but less hitpoints.</string>
   </language>
 </stringtable>

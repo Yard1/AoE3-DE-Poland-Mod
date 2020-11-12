@@ -1450,13 +1450,13 @@
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>2</age>
-      <displayunitcount>16</displayunitcount>
+      <displayunitcount>8</displayunitcount>
       <revoltcard>
       </revoltcard>
     </card>
     <card>
       <name>DEHCREVGuerillaWarfare</name>
-      <maxcount>1</maxcount>
+      <maxcount>-1</maxcount>
       <level>0</level>
       <prereqtech>XPRevolution</prereqtech>
       <age>3</age>
@@ -1654,15 +1654,15 @@
     <revoltdeck civ="DERevPoland">
       <name>$$45518$$</name>
       <cards>
-        <card>DEHCREVPolishChasseurs</card>
-        <card>DEHCREVShipHorseArtillery</card>
-        <card>DEHCREVPolishNobility</card>
-        <card>HCREVShipFortWagon</card>
-        <card>DEHCREVGuerillaWarfare</card>
-        <card>DEHCREVPolishMusketeersGerman</card>
         <card>DEHCREVCracowians</card>
+        <card>DEHCREVPolishNobility</card>
+        <card>DEHCREVGuerillaWarfare</card>
         <card>DEHCREVWingedHussars</card>
+        <card>DEHCREVPolishMusketeersGerman</card>
         <card>DEHCREVScythemen</card>
+        <card>DEHCREVPolishChasseurs</card>
+        <card>HCREVShipFortWagon</card>
+        <card>DEHCREVShipHorseArtillery</card>
       </cards>
     </revoltdeck>
   </decks>
