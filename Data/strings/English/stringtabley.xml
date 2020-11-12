@@ -34117,8 +34117,8 @@
     <string _locid="91858">Chasseurs</string>
     <string _locid="91860">Chasseur</string>
     <string _locid="91861">Guard Polish Lancer Uhlan</string>
-    <string _locid="91862">Explorer recieves an aura, extra hitpoints and damage, can recieve shipments and train Uhlans and Insurgents. Uhlans recieve a bonus against Light Infantry. Settlers become Insurgents (Skirmishers).</string>
-    <string _locid="91863">Explorer recieves an aura, extra hitpoints and damage, can recieve shipments and train Uhlans and Insurgents. Cossacks become Uhlans with extra hitpoints. Settlers become Insurgents (Skirmishers).</string>
+    <string _locid="91862">Improves Explorer in combat, grants him an aura, lets him train units and receive shipments. Uhlans recieve a bonus against Light Infantry. Settlers become Insurgents (Skirmishers).</string>
+    <string _locid="91863">Improves Explorer in combat, grants him an aura, lets him train units and receive shipments. Cossacks become Uhlans with extra hitpoints. Settlers become Insurgents (Skirmishers).</string>
     <string _locid="91864">Enables Musketeers to be trained.</string>
   </language>
 </stringtable>

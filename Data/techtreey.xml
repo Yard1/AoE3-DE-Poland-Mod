@@ -29664,7 +29664,7 @@
     </effects>
   </tech>
   <tech name="VeteranUhlansShadow" type="Normal">
-    <dbid>2663</dbid>
+    <dbid>6696</dbid>
     <researchpoints>0.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <flag>Shadow</flag>
@@ -75753,7 +75753,7 @@
     </effects>
   </tech>
   <tech name="DEHCREVScythemen" type="Normal">
-    <dbid>6684</dbid>
+    <dbid>6695</dbid>
     <displaynameid>91847</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
@@ -75836,7 +75836,7 @@
     </effects>
   </tech>
   <tech name="DEHCREVWingedHussars" type="Normal">
-    <dbid>2642</dbid>
+    <dbid>6694</dbid>
     <displaynameid>37520</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
@@ -75856,7 +75856,7 @@
     </effects>
   </tech>
   <tech name="DEHCREVCracowiansShadow" type="Normal">
-    <dbid>2663</dbid>
+    <dbid>6693</dbid>
     <researchpoints>0.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <flag>Shadow</flag>
@@ -75882,7 +75882,7 @@
     </effects>
   </tech>
   <tech name="DEHCREVCracowians" type="Normal">
-    <dbid>6559</dbid>
+    <dbid>6692</dbid>
     <displaynameid>91852</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
@@ -75899,7 +75899,7 @@
     </effects>
   </tech>
   <tech name="DEHCREVPolishMusketeersShadow" type="Normal">
-    <dbid>2663</dbid>
+    <dbid>6691</dbid>
     <researchpoints>0.0000</researchpoints>
     <status>UNOBTAINABLE</status>
     <flag>Shadow</flag>
@@ -75920,7 +75920,7 @@
     </effects>
   </tech>
   <tech name="DEHCREVPolishMusketeersGerman" type="Normal">
-    <dbid>6559</dbid>
+    <dbid>6690</dbid>
     <displaynameid>91854</displaynameid>
     <rollovertextid>91864</rollovertextid>
     <cost resourcetype="Ships">1.0000</cost>
@@ -75938,7 +75938,7 @@
     </effects>
   </tech>
   <tech name="DEHCREVPolishMusketeers" type="Normal">
-    <dbid>6559</dbid>
+    <dbid>6689</dbid>
     <displaynameid>91854</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
@@ -75954,7 +75954,7 @@
     </effects>
   </tech>
   <tech name="DEHCREVGuerillaWarfare" type="Normal">
-    <dbid>6559</dbid>
+    <dbid>6688</dbid>
     <displaynameid>91855</displaynameid>
     <rollovertextid>91856</rollovertextid>
     <cost resourcetype="Ships">1.0000</cost>
@@ -76021,7 +76021,7 @@
     </effects>
   </tech>
   <tech name="DEHCREVPolishNobility" type="Normal">
-    <dbid>6491</dbid>
+    <dbid>6687</dbid>
     <displaynameid>91850</displaynameid>
     <cost resourcetype="Ships">1.0000</cost>
     <researchpoints>40.0000</researchpoints>
@@ -76043,7 +76043,7 @@
     </effects>
   </tech>
   <tech name="DEHCREVPolishChasseurs" type="Normal">
-    <dbid>6544</dbid>
+    <dbid>6686</dbid>
     <displaynameid>91858</displaynameid>
     <researchpoints>40.0000</researchpoints>
     <status>UNOBTAINABLE</status>
@@ -76060,7 +76060,7 @@
     </effects>
   </tech>
   <tech name="DERevolutionPolandGerman" type="Normal">
-    <dbid>6436</dbid>
+    <dbid>6685</dbid>
     <displaynameid>91839</displaynameid>
     <cost resourcetype="Food">1000.0000</cost>
     <cost resourcetype="Wood">1000.0000</cost>
@@ -76177,7 +76177,7 @@
     </effects>
   </tech>
   <tech name="DERevolutionPolandRussian" type="Normal">
-    <dbid>6436</dbid>
+    <dbid>6684</dbid>
     <displaynameid>91839</displaynameid>
     <cost resourcetype="Food">1000.0000</cost>
     <cost resourcetype="Wood">1000.0000</cost>
